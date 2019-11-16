@@ -2,7 +2,7 @@
     <div class="col-md-12 text-center py-5">
         <p style="color: aliceblue;">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" style="color: gold;">Royal College 2008 Batch</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https://rcu.lk" target="_blank" style="color: gold;">Royal College 2002 Batch</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </p>
     </div>

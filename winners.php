@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <?php include('./components/header.php')?>
+      <?php include('./includes/header.php')?>
 
     
   </head>
 
   <body>
 
-  <?php include('./components/header2.php')?>
+  <?php include('./includes/header2.php')?>
 
 
-  <?php include('./components/nav.php')?>
+  <?php include('./includes/nav.php')?>
 
   <main class="main-content">
     <div class="container-fluid photos">
@@ -172,7 +172,7 @@
                         </div>
                         
                       </div>
-        <?php include('./components/footer.php')?>
+        <?php include('./includes/footer.php')?>
 
     </div>
       </div>
