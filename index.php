@@ -20,7 +20,7 @@
       <main class="main-content">
     <div class="container-fluid photos">
 
-      <div class="col-12 col-md-12 col-lg-12" >
+      <div class="col-12 col-md-12 col-lg-12" id="main_banner">
         <img src="images/main_banner.jpg"   style="padding: 30px;width: 100%;height: 500px;" >
       </div>
 
@@ -64,5 +64,15 @@
     </main>
   
   </div> <!-- .site-wrap -->
+
+    <script>
+      $(document).ready(function() {
+        setTimeout(function() {
+            $("#main_banner").fadeOut(1500);
+        }, 3000);
+
+    
+      });
+    </script>
     </body>
   </html>
