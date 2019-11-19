@@ -23,8 +23,10 @@
   <main class="main-content">
     <div class="container-fluid photos">
 
-      <div class="col-12 col-md-12 col-lg-12" id="mainBanner">
-        <img src="images/main_banner.jpg" style="padding: 30px;width: 100%;height: 500px;">
+
+      <div class="col-12 col-md-12 col-lg-12" id="main_banner">
+        <img src="images/main_banner.jpg"   style="padding: 30px;width: 100%;height: 500px;" >
+
       </div>
 
       <div class="col-md-12" style="margin-top:10px">
@@ -107,11 +109,16 @@
 
   </div> <!-- .site-wrap -->
 
-  <script>
-    setTimeout(function() {
-      $('#mainBanner').fadeOut('slow');
-    }, 3000);
-  </script>
-</body>
 
-</html>
+    <script>
+      $(document).ready(function() {
+        setTimeout(function() {
+            $("#main_banner").fadeOut(1500);
+        }, 3000);
+
+    
+      });
+    </script>
+    </body>
+  </html>
+
