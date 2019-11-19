@@ -1,4 +1,4 @@
-<div class="row justify-content-center">
+<div class="row justify-content-center footer">
     <div class="col-md-12 text-center py-5">
         <p style="color: aliceblue;">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -13,9 +13,11 @@
 
     var header = document.getElementById("myHeader");
     var sidebar = document.getElementById("mySidebar");
+    var sidebarnav = document.getElementById("mySidebarnav");
 
     var stickyheader = header.offsetTop;
     var stickySidebar = sidebar.offsetTop;
+    var stickySidebarnav = sidebarnav.offsetTop;
 
     function myFunction() {
         if (window.pageYOffset > stickyheader) {
@@ -30,9 +32,14 @@
             sidebar.classList.remove("stickyside");
         }
 
+        if (window.pageYOffset > stickySidebarnav) {
+            sidebarnav.classList.add("stickysidenav");
+        } else {
+            sidebarnav.classList.remove("stickysidenav");
+        }
+
     }
 
-    window.onload()
 
 </script>
 

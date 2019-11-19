@@ -653,6 +653,11 @@ h1, h2, h3, h4, h5,
   
 }
   
+@media (max-width: 575.98px) {
+  #royalLogo{
+    display: none;
+  }
+}
   @media (max-width: 991.98px) {
     .main-content {
       width: 100%;
@@ -676,6 +681,7 @@ h1, h2, h3, h4, h5,
       right: 0;
       bottom: 0;
       top: 0;
+      bottom: 0;
       background: rgba(0, 0, 0, 0.6);
       z-index: 1;
       -webkit-transition: .3s all ease;
@@ -703,7 +709,7 @@ h1, h2, h3, h4, h5,
         color: #fff;
         font-size: 20px; }
       .main-content .photos .photo-item .photo-text-more .heading {
-        font-size: 16px;
+        font-size: 20px;
         color: #fff;
         margin-bottom: 0; }
       .main-content .photos .photo-item .photo-text-more .meta {
@@ -774,6 +780,7 @@ h1, h2, h3, h4, h5,
 
 
 .winnerbox{
+  z-index: 0;
   -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
@@ -789,7 +796,7 @@ box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
   color: #f1f1f1;
   position: static;
   box-shadow: 0px 5px #888888;
-  z-index:1;
+  z-index:2;
   -webkit-box-shadow: -1px 4px 6px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 4px 6px -1px rgba(0,0,0,0.75);
   box-shadow: -1px 4px 6px -1px rgba(0,0,0,0.75);
@@ -807,10 +814,130 @@ box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
 
 .stickyside {
   position: fixed;
-  width: 100%;
+
   margin-top: 100px;
 }
 
-.sticky + .content {
-  padding-top: 102px;
+.stickysidenav {
+  right:0 !important;
+  position: fixed;
+  margin-top: 170px;
+  width: 100%;
+  top:50%;
+}
+
+.nav-container{
+  right:0 !important;
+  position: fixed;
+  transform: translateY(-50%);
+  top:50%;
+  z-index: 1;
+}
+
+.nav-container a{
+  display: block;
+  text-decoration: none;
+  background: gold;
+  color: darkblue;
+  text-transform: uppercase;
+  padding: 15px 0 15px 10px;
+  margin: 5px 0;
+  width: 150px;
+  letter-spacing: 1.5px;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+ margin-right: -90px;
+}
+
+
+.nav-container a span {
+  width:70px;
+  height:100%;
+  text-align: center;
+  color: gold;
+  background:darkblue;
+  position: absolute;
+  right:  0;
+  top: 0;
+
+  vertical-align: middle;
+}
+
+.nav-container a:hover{
+  margin-right:0 ;
+}
+
+.classtitle{
+  display: block;
+  background: gold;
+  color: darkblue;
+  text-transform: uppercase;
+  padding: 15px 15px 15px 15px;
+  margin: 5px 0;
+  letter-spacing: 1.5px;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.75);
+  text-align: right;
+}
+
+.winnerimage{
+  width: 100%;
+  height:100px;
+  right: 0;
+  top: -15px;
+  position: absolute;
+  z-index: 2;
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.winnerimage img{
+  width: 70px;
+  height:100%;
+  
+}
+
+.winnerart{
+  -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
+}
+
+.winnerinfo{
+  color:gold;
+  background: rgb(0, 0, 104);
+}
+
+.winnersparentcard{
+  padding: 15px;
+  background: rgb(0, 0, 61);
+}
+
+.aboutdiv{
+  background-color: rgba(5, 6, 87, 0.664);
+  padding:10px;
+}
+
+.event{
+  margin-bottom: 10px;
+  padding:15px;
+  background-color: rgb(0, 1, 53);
+}
+
+.pagi{
+  height: 50px;
+  background-color: rgb(255, 187, 0);
+}
+
+.eventdecs{
+  color: #fff;
+}
+
+.posts{
+  padding: 15px;
+  background-color: rgba(1, 6, 82, 0.575);
+}
+
+.footer{
+  margin: 0;
+  background-color: rgb(1, 5, 56);
 }

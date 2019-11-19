@@ -1,185 +1,405 @@
+<?php $page = 'winners'; ?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <?php include('./includes/header.php')?>
 
-    
-  </head>
-
-  <body>
-
-  <?php include('./includes/header2.php')?>
+<head>
+	<?php include('./includes/header.php') ?>
 
 
-  <?php include('./includes/nav.php')?>
+</head>
 
-  <main class="main-content">
-    <div class="container-fluid photos">
-        <div class="row">
-      <div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
-        
-            <div class="card" style="padding:15px;background: darkblue;">
-                <div class="card-title" style="font-size:25px;color:gold;">Grade 1 Winners</div>
-                <div class="card-body">
-                  <div class="row" >
-                      <div class="col-md-4">
-                          <div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
-                              
-                              <div class="card-title" style="font-size:20px;text-align: center;">1st Place</div>
-                              
-                              <div class="card-body"><img src="images/img_1.jpg" width="100%" height="100%"/></div>
-                          </div>
-                      </div>
-                      <div class="col-md-4">
-                          <div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
-                              <div class="card-title" style="font-size:20px;text-align: center;">2nd Place</div>
-                              
-                              <div class="card-body"><img src="images/img_1.jpg" width="100%" height="100%"/></div>
-                          </div>
-                      </div>
-                      <div class="col-md-4">
-                          <div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
-                              <div class="card-title" style="font-size:20px;text-align: center;">3rd Place</div>
-                              
-                              <div class="card-body"><img src="images/img_1.jpg" width="100%" height="100%"/></div>
-                          </div>
-                      </div>
-                  </div>
-                  
-                  
-                </div>
-              </div>
-        </div>
-        
-      </div>
-      <div class="row">
-          <div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
-            
-                <div class="card" style="padding:15px;">
-                    <div class="card-title">Grade 1 Winners</div>
-                    <div class="card-body">
-                      <div class="row" >
-                          <div class="col-md-4" >
-                              <div class="card" style="padding:15px;">
-                                  <div class="card-title">1st Place</div>
-                              </div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="card" style="padding:15px;">
-                                  <div class="card-title">2nd Place</div>
-                              </div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="card" style="padding:15px;">
-                                  <div class="card-title">3rd Place</div>
-                              </div>
-                          </div>
-                      </div>
-                      
-                      
-                    </div>
-                  </div>
-            </div>
-            
-          </div>
-          <div class="row">
-              <div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
-                
-                    <div class="card" style="padding:15px;">
-                        <div class="card-title">Grade 1 Winners</div>
-                        <div class="card-body">
-                          <div class="row" >
-                              <div class="col-md-4" >
-                                  <div class="card" style="padding:15px;">
-                                      <div class="card-title">1st Place</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-4">
-                                  <div class="card" style="padding:15px;">
-                                      <div class="card-title">2nd Place</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-4">
-                                  <div class="card" style="padding:15px;">
-                                      <div class="card-title">3rd Place</div>
-                                  </div>
-                              </div>
-                          </div>
-                          
-                          
-                        </div>
-                      </div>
-                </div>
-                
-              </div>
-              <div class="row">
-                  <div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
-                    
-                        <div class="card" style="padding:15px;">
-                            <div class="card-title">Grade 1 Winners</div>
-                            <div class="card-body">
-                              <div class="row" >
-                                  <div class="col-md-4" >
-                                      <div class="card" style="padding:15px;">
-                                          <div class="card-title">1st Place</div>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-4">
-                                      <div class="card" style="padding:15px;">
-                                          <div class="card-title">2nd Place</div>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-4">
-                                      <div class="card" style="padding:15px;">
-                                          <div class="card-title">3rd Place</div>
-                                      </div>
-                                  </div>
-                              </div>
-                              
-                              
-                            </div>
-                          </div>
-                    </div>
-                    
-                  </div>
-                  <div class="row">
-                      <div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
-                        
-                            <div class="card" style="padding:15px;">
-                                <div class="card-title">Grade 1 Winners</div>
-                                <div class="card-body">
-                                  <div class="row" >
-                                      <div class="col-md-4" >
-                                          <div class="card" style="padding:15px;">
-                                              <div class="card-title">1st Place</div>
-                                          </div>
-                                      </div>
-                                      <div class="col-md-4">
-                                          <div class="card" style="padding:15px;">
-                                              <div class="card-title">2nd Place</div>
-                                          </div>
-                                      </div>
-                                      <div class="col-md-4">
-                                          <div class="card" style="padding:15px;">
-                                              <div class="card-title">3rd Place</div>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  
-                                  
-                                </div>
-                              </div>
-                        </div>
-                        
-                      </div>
-        <?php include('./includes/footer.php')?>
+<body>
 
-    </div>
-      </div>
-    </main>
-  
-  </div> <!-- .site-wrap -->
+	<?php include('./includes/header2.php') ?>
 
-      
-    </body>
-  </html>
+
+	<?php include('./includes/nav.php') ?>
+
+	<main class="main-content">
+		<div class="container-fluid photos">
+
+			<div class="row">
+
+				<div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
+
+					<div class="card winnersparentcard">
+						<div class="card-title" style="font-size:25px;color:gold;">Grade 1 Winners</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="card-deck">
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_1.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/1st_place.png" /></div>
+
+
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_2.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/2nd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_3.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/3rd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+
+				<div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
+
+					<div class="card winnersparentcard">
+						<div class="card-title" style="font-size:25px;color:gold;">Grade 2 Winners</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="card-deck">
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_1.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/1st_place.png" /></div>
+
+
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_2.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/2nd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_3.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/3rd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
+
+					<div class="card winnersparentcard">
+						<div class="card-title" style="font-size:25px;color:gold;">Grade 3 Winners</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="card-deck">
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_1.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/1st_place.png" /></div>
+
+
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_2.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/2nd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_3.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/3rd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
+
+					<div class="card winnersparentcard">
+						<div class="card-title" style="font-size:25px;color:gold;">Grade 4 Winners</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="card-deck">
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_1.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/1st_place.png" /></div>
+
+
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_2.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/2nd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_3.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/3rd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-12 col-md-12 col-lg-12" style="padding:15px;">
+
+					<div class="card winnersparentcard">
+						<div class="card-title" style="font-size:25px;color:gold;">Grade 5 Winners</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="card-deck">
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_1.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/1st_place.png" /></div>
+
+
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_2.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/2nd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+
+									
+										<div class="card winnerbox" style="padding:15px;background: goldenrod;color: darkblue;">
+											<img src="images/img_3.jpg" class="card-img-top winnerart" />
+											<div class="winnerimage"><img src="images/3rd_place.png" />
+											</div>
+											
+
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
+												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
+												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
+												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
+											</div>
+											<div class="card-footer winnerinfo">
+												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<?php include('./includes/footer.php') ?>
+
+		</div>
+		</div>
+	</main>
+
+	</div> <!-- .site-wrap -->
+
+
+</body>
+
+</html>
