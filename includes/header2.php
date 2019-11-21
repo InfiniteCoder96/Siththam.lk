@@ -9,7 +9,7 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    <div class="top-container" style="height:500px;background-image:url('images/image001.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
+    <div class="top-container" style="height:200px;background-image:url('images/image001.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
 
     </div>
 
