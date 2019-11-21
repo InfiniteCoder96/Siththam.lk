@@ -1,4 +1,4 @@
-<?php $page = 'winners'; ?>
+<?php $parent_page = 'winners'; $page = 'winners_2019'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,13 +34,9 @@
 											<div class="winnerimage"><img src="images/1st_place.png" /></div>
 
 
-											
+											<div class="card-body"></div>
 
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -54,12 +50,8 @@
 											<div class="winnerimage"><img src="images/2nd_place.png" />
 											</div>
 											
-
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -72,12 +64,8 @@
 											<div class="winnerimage"><img src="images/3rd_place.png" />
 											</div>
 											
-
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -109,12 +97,8 @@
 
 
 											
-
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -127,13 +111,9 @@
 											<img src="images/img_2.jpg" class="card-img-top winnerart" />
 											<div class="winnerimage"><img src="images/2nd_place.png" />
 											</div>
-											
+											<div class="card-body"></div>
 
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -146,12 +126,8 @@
 											<div class="winnerimage"><img src="images/3rd_place.png" />
 											</div>
 											
-
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -183,13 +159,9 @@
 											<div class="winnerimage"><img src="images/1st_place.png" /></div>
 
 
-											
+											<div class="card-body"></div>
 
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -203,12 +175,8 @@
 											<div class="winnerimage"><img src="images/2nd_place.png" />
 											</div>
 											
-
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -221,12 +189,8 @@
 											<div class="winnerimage"><img src="images/3rd_place.png" />
 											</div>
 											
-
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -258,13 +222,9 @@
 											<div class="winnerimage"><img src="images/1st_place.png" /></div>
 
 
-											
+											<div class="card-body"></div>
 
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -277,13 +237,9 @@
 											<img src="images/img_2.jpg" class="card-img-top winnerart" />
 											<div class="winnerimage"><img src="images/2nd_place.png" />
 											</div>
-											
+											<div class="card-body"></div>
 
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -296,12 +252,8 @@
 											<div class="winnerimage"><img src="images/3rd_place.png" />
 											</div>
 											
-
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -333,13 +285,9 @@
 											<div class="winnerimage"><img src="images/1st_place.png" /></div>
 
 
-											
+											<div class="card-body"></div>
 
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -353,12 +301,8 @@
 											<div class="winnerimage"><img src="images/2nd_place.png" />
 											</div>
 											
-
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
+											
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
@@ -372,11 +316,7 @@
 											</div>
 											
 
-											<div class="card-body">Lorem ipsum dolor sit amet, consectetur 
-												<a href="#">adipisicing</a> elit. Ipsa explicabo quasi cum,
-												 laudantium neque at veniam itaque atque <a href="#">necessitatibus</a>
-												  temporibus! Beatae sit soluta magni neque autem, suscipit dolorem, quo alias.
-											</div>
+											<div class="card-body"></div>
 											<div class="card-footer winnerinfo">
 												<h4 class="meta">Sathiru Ravishan | 1 - B</h4>
 											</div>
