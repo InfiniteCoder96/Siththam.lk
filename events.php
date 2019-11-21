@@ -68,15 +68,7 @@
               </div>
             </div>  
 
-            <div class="col-12 text-center pagi">
-              <div class="custom-pagination">
-                <span>1</span>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <span>...</span>
-                <a href="#">7</a>
-              </div>
-            </div>
+            
           </div>
         </div>
 

@@ -9,20 +9,22 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    <div class="top-container" style="height:500px;background-image:url('images/image001.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
+    <div class="top-container" style="height:350px;background-image:url('images/image001.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
 
     </div>
 
     <div class="headerr d-flex d-lg-block" id="myHeader">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-12">
                 <img src="images/main_logo.png" style="width: 200px;-webkit-filter: drop-shadow(5px 5px 5px #222 );
                 filter: drop-shadow(5px 5px 5px #222);">
+                <div class="d-inline-block d-xl-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
             </div>
+            
             <div class="col-md-8" id="royalLogo">
                 <marquee behavior="scroll" direction="left" id="main_marquee">
-                    <h3 style="color: gold;text-align: end;">Sri Lanka Largest  Exhibition of Creative Art of Primary Students</h3>
-                    <h6 style="color: gold;text-align: end;" >Organized by Royal College 2002 Batch</h6>
+                    <h3 style="color: gold;text-align: end;font-family: 'Flavors', cursive;">Sri Lanka Largest  Exhibition of Creative Art of Primary Students</h3>
+                    <h6 style="color: gold;text-align: end;" >- Royal College Union in association with the Royal College Group of 2002</h6>
                 </marquee>
 
             </div>
@@ -33,7 +35,7 @@
                 </div>
                 
             </div>
-            <div class="d-inline-block d-xl-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+            
         </div>
 
 
