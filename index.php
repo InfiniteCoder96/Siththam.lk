@@ -21,15 +21,24 @@
 
 
   <main class="main-content">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" id="caroimg" src="images/main_banner.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" id="caroimg" src="images/about_banner.jpeg" alt="Second slide">
+          </div>
+        </div>
+      </div>
     <div class="container-fluid photos">
 
 
-      <div class="col-12 col-md-12 col-lg-12" id="main_banner">
-        <img src="images/main_banner.jpg" style="padding: 30px;width: 100%;height: 500px;">
+      
 
-      </div>
+      
 
-      <div class="col-md-12" style="margin-top:10px">
+      <div class="col-md-12">
 
         <div class="row posts">
           <div class="card-columns">
@@ -37,25 +46,34 @@
               <img class="card-img-top" src="images/post_1.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">'Every Child is an Artist'</h5>
-                <p class="card-text">The aforesaid fondest memories 
+                <p class="card-text">The aforesaid fondest memories
                   and the tenderest dreams comes live together at Siththam,
-                   an exhibition for the primary students to showcase their
-                    memories through creative arts on the 22nd and the 23rd
-                     of November 2019 at the Royal MAS Arena 10am to 6pm 
-                     Organized by the Royal College Union in association with
-                      the Royal College Group of 2002.</p>
+                  an exhibition for the primary students to showcase their
+                  memories through creative arts on the 22nd and the 23rd
+                  of November 2019 at the Royal MAS Arena 10am to 6pm
+                  Organized by the Royal College Union in association with
+                  the Royal College Group of 2002.</p>
               </div>
             </div>
-            <div class="card p-3">
+            <div class="card p-3 bg-danger text-white">
               <blockquote class="blockquote mb-0 card-body">
                 <p>Every Child is an Artist</p>
                 <footer class="blockquote-footer">
-                  <small class="text-muted">
-                  Pablo Picasso, <cite title="Source Title">world renowned artist </cite>
+                  <small class="text-dark">
+                    Pablo Picasso, <cite title="Source Title">world renowned artist </cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
+            <div class="card">
+              <img class="card-img-top" src="images/post_7.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">රාජකීය විද්‍යාල සංගමය විසින් 2002 කණ්ඩායම සමඟ එක්ව සංවිධානය කරන "සිත්තම් 2019"</h5>
+                <p class="card-text">නොවැම්බර් 22 සහ 23 උදේ 10 සිට සවස 6 දක්වා Royal MAS Arena හිදී. ඇතුල්වීම නොමිලේ.</p>
+                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
+              </div>
+            </div>
+
             <div class="card">
               <img class="card-img-top" src="images/post_2.jpg" alt="Card image cap">
               <div class="card-body">
@@ -74,6 +92,112 @@
                 </footer>
               </blockquote>
             </div>
+
+            <div class="card">
+              <img class="card-img-top" src="images/post_13.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">3 days more....</h5>
+                <p class="card-text">Visit Siththam 2019​ powered by
+                  Astra Sri Lanka, 22nd & 23rd Nov at Royal MAS Arena​,
+                  10am to 6pm. Creative exhibition of primary students,
+                  organized by the Royal College Union in association with Group of 2002.</p>
+                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
+              </div>
+            </div>
+
+
+
+            <div class="card">
+              <img class="card-img-top" src="images/post_7.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">රාජකීය විද්‍යාල සංගමය විසින් 2002 කණ්ඩායම සමඟ එක්ව සංවිධානය කරන "සිත්තම් 2019"</h5>
+                <p class="card-text">නොවැම්බර් 22 සහ 23 උදේ 10 සිට සවස 6 දක්වා Royal MAS Arena හිදී. ඇතුල්වීම නොමිලේ.</p>
+                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <img class="card-img" src="images/post_11.jpg" alt="Card image">
+            </div>
+            <div class="card p-3 bg-success text-white">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>What a child doesn't receive he can seldom later give</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    P. D. James<cite title="Source Title">world renowned artist </cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/about_banner.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">"සිත්තම් 2019"</h5>
+                <p class="card-text">නොවැම්බර් 22 සහ 23 උදේ 10 සිට සවස 6 දක්වා Royal MAS Arena හිදී. ඇතුල්වීම නොමිලේ.</p>
+                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="row posts">
+          <div class="card-columns">
+            <div class="card bg-dark text-white text-center p-3">
+              <blockquote class="blockquote mb-0">
+                <p>Siththam 2019 Thanking our valuable sponsors & partners!</p>
+                <footer class="blockquote-footer">
+                  <p class="card-text text-white">Principal Sponsor - Astra Sri Lanka</p>
+                  <p class="card-text text-white">Co-Sponsor - Atlas Sri Lanka</p>
+                  <p class="card-text text-white">Food Partner - Bairaha</p>
+                  <p class="card-text text-white">Print Media Partner The Sunday Morning & @Sathi Aga Aruna</p>
+                  <p class="card-text text-white">Digital Media Partner - Pulse</p>
+                  <p class="card-text">Organized by RCU - ROYAL COLLEGE UNION in association with Royal College Group of 2002 (99 O/L Group)</p>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/post_14.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Atlas Sri Lanka - පුන්චි සිතුවිල්ලට හොදම පාට</h5>
+                <p class="card-text">Initiated in 2016, it was firstly organized to
+                  the primary school students of Royal College where a number 1800
+                  drawings were submitted to the exhibition. The second edition was
+                  open to ten more schools which increased the number of drawings
+                  to 2500 in 2017, with the exhibition expanding its boundaries to
+                  the northern and eastern provinces of Sri Lanka. Other than
+                  drawings from Royal College, Colombo, Siththam 2019 will feature
+                  drawings from students from Visakha Vidyalaya , Ladies' College,
+                  Bishop's College, Colombo 3, Sirimavo Bandaranaike Vidyalaya ,
+                  St. Thomas' College, Mount Lavinia, Ananda College, Thurstan College,
+                  Isipathana College and St. Joseph's College, Trincomalee ,
+                  thereby becoming the single largest exhibition to take place in the country.</p>
+                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/post_5.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Thank you <a href="https://www.facebook.com/AstraSriLanka/?__tn__=K-R&eid=ARCmwLTNYrkAQmunhCVqh48EsuDlm6GYzbz02sTkIoSDLpadQLdUrKUvUzAXM5OMt0OTq1F_n8APlWxR&fref=mentions">Astra Sri Lanka</a></h5>
+                <p class="card-text">Joining hands with "Siththam 2019" as the principal sponsor.
+                  Astra, enriched with Vitamin A and D, will inspire the future generation of the
+                  nation to chase their dreams in this third edition of Siththam. At an age of a child,
+                  everybody has ambitions. To be a pilot, an engineer or perhaps a doctor.
+                  Irrespective of the ambition, everyone loves art. While chasing the top tier dreams,
+                  the children will showcase their love to art at the Royal College MAS Arena in the
+                  third edition of Siththam powered by Astra.</p>
+                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/post_12.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Atlas Sri Lanka - පුන්චි සිතුවිල්ලට හොදම පාට</h5>
+                <p class="card-text">Proud Co-sponsor of Siththam 2019. Thank you!</p>
+                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
+              </div>
+            </div>
             <div class="card">
               <img class="card-img" src="images/post_3.png" alt="Card image">
             </div>
@@ -84,17 +208,7 @@
                 <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
               </div>
             </div>
-            <div class="card">
-              <img class="card-img-top" src="images/post_13.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">3 days more....</h5>
-                <p class="card-text">Visit Siththam 2019​ powered by
-                   Astra Sri Lanka, 22nd & 23rd Nov at Royal MAS Arena​,
-                   10am to 6pm. Creative exhibition of primary students,
-                    organized by the Royal College Union in association with Group of 2002.</p>
-                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
-              </div>
-            </div>
+
             <div class="card">
               <img class="card-img-top" src="images/post_4.jpg" alt="Card image cap">
               <div class="card-body">
@@ -108,10 +222,11 @@
               <div class="card-body">
                 <h5 class="card-title">"RCOBANA"</h5>
                 <p class="card-text">Royal College Old Boys Association of N.America
-Follow the proud event partner of Siththam 2019 on <a href="https://www.facebook.com/RCOBANA/">RCOBANA</a></p>
+                  Follow the proud event partner of Siththam 2019 on <a href="https://www.facebook.com/RCOBANA/">RCOBANA</a></p>
                 <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
               </div>
             </div>
+
             <div class="card">
               <img class="card-img-top" src="images/post_6.jpg" alt="Card image cap">
               <div class="card-body">
@@ -128,75 +243,14 @@ Follow the proud event partner of Siththam 2019 on <a href="https://www.facebook
                 <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
               </div>
             </div>
-            <div class="card">
-              <img class="card-img-top" src="images/post_12.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Atlas Sri Lanka - පුන්චි සිතුවිල්ලට හොදම පාට</h5>
-                <p class="card-text">Proud Co-sponsor of Siththam 2019. Thank you!</p>
-                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
-              </div>
-            </div>
-            
-            <div class="card">
-              <img class="card-img-top" src="images/post_7.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">රාජකීය විද්‍යාල සංගමය විසින් 2002 කණ්ඩායම සමඟ එක්ව සංවිධානය කරන "සිත්තම් 2019"</h5>
-                <p class="card-text">නොවැම්බර් 22 සහ 23 උදේ 10 සිට සවස 6 දක්වා Royal MAS Arena හිදී. ඇතුල්වීම නොමිලේ.</p>
-                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="images/post_5.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Thank you <a href="https://www.facebook.com/AstraSriLanka/?__tn__=K-R&eid=ARCmwLTNYrkAQmunhCVqh48EsuDlm6GYzbz02sTkIoSDLpadQLdUrKUvUzAXM5OMt0OTq1F_n8APlWxR&fref=mentions">Astra Sri Lanka</a></h5>
-                <p class="card-text">Joining hands with "Siththam 2019" as the principal sponsor.
-                  Astra, enriched with Vitamin A and D, will inspire the future generation of the 
-                  nation to chase their dreams in this third edition of Siththam. At an age of a child,
-                   everybody has ambitions. To be a pilot, an engineer or perhaps a doctor.
-                    Irrespective of the ambition, everyone loves art. While chasing the top tier dreams,
-                     the children will showcase their love to art at the Royal College MAS Arena in the
-                      third edition of Siththam powered by Astra.</p>
-                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="images/post_14.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Atlas Sri Lanka - පුන්චි සිතුවිල්ලට හොදම පාට</h5>
-                <p class="card-text">Initiated in 2016, it was firstly organized to
-                   the primary school students of Royal College where a number 1800
-                    drawings were submitted to the exhibition. The second edition was
-                     open to ten more schools which increased the number of drawings
-                      to 2500 in 2017, with the exhibition expanding its boundaries to
-                       the northern and eastern provinces of Sri Lanka. Other than
-                        drawings from Royal College, Colombo, Siththam 2019 will feature
-                         drawings from students from Visakha Vidyalaya , Ladies' College,
-                          Bishop's College, Colombo 3, Sirimavo Bandaranaike Vidyalaya ,
-                           St. Thomas' College, Mount Lavinia, Ananda College, Thurstan College,
-                            Isipathana College and St. Joseph's College, Trincomalee ,
-                             thereby becoming the single largest exhibition to take place in the country.</p>
-                <p class="card-text"><small class="text-muted">Last updated November 2019</small></p>
-              </div>
-            </div>
-            <div class="card bg-dark text-white text-center p-3">
-              <blockquote class="blockquote mb-0">
-                <p>Siththam 2019 Thanking our valuable sponsors & partners!</p>
-                <footer class="blockquote-footer">
-                <p class="card-text text-white">Principal Sponsor - Astra Sri Lanka</p>
-                <p class="card-text text-white">Co-Sponsor - Atlas Sri Lanka</p>
-                <p class="card-text text-white">Food Partner - Bairaha</p>
-                <p class="card-text text-white">Print Media Partner The Sunday Morning & @Sathi Aga Aruna</p>
-                <p class="card-text text-white">Digital Media Partner - Pulse</p>
-                <p class="card-text">Organized by RCU - ROYAL COLLEGE UNION in association with Royal College Group of 2002 (99 O/L Group)</p>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="card">
-              <img class="card-img" src="images/post_11.jpg" alt="Card image">
-            </div>
+
+
+
+
+
+
           </div>
         </div>
-        
       </div>
       <?php include('./includes/footer.php') ?>
     </div>

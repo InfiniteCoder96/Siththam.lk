@@ -49,7 +49,7 @@ $page = 'gallery'; ?>
 
             <div class="<?php echo $sizes[$i] ?>" data-aos="fade-up">
               <a href="single.php" class="d-block photo-item">
-                <img src="storage/<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
+                <img src="<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
                 <div class="photo-text-more">
                   <h4 class="heading"><?php echo $row['student_name'] ?></h4>
                   <h3 class="meta"><?php echo $row['art_topic'] ?></h3>
@@ -90,7 +90,7 @@ $page = 'gallery'; ?>
 
             <div class="<?php echo $sizes[$i] ?>" data-aos="fade-up">
               <a href="single.php" class="d-block photo-item">
-                <img src="storage/<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
+                <img src="<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
                 <div class="photo-text-more">
                   <h4 class="heading"><?php echo $row['student_name'] ?></h4>
                   <h3 class="meta"><?php echo $row['art_topic'] ?></h3>
@@ -131,7 +131,7 @@ $page = 'gallery'; ?>
 
             <div class="<?php echo $sizes[$i] ?>" data-aos="fade-up">
               <a href="single.php" class="d-block photo-item">
-                <img src="storage/<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
+                <img src="<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
                 <div class="photo-text-more">
                   <h4 class="heading"><?php echo $row['student_name'] ?></h4>
                   <h3 class="meta"><?php echo $row['art_topic'] ?></h3>
@@ -172,7 +172,7 @@ $page = 'gallery'; ?>
 
             <div class="<?php echo $sizes[$i] ?>" data-aos="fade-up">
               <a href="single.php" class="d-block photo-item">
-                <img src="storage/<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
+                <img src="<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
                 <div class="photo-text-more">
                   <h4 class="heading"><?php echo $row['student_name'] ?></h4>
                   <h3 class="meta"><?php echo $row['art_topic'] ?></h3>
@@ -213,7 +213,7 @@ $page = 'gallery'; ?>
 
             <div class="<?php echo $sizes[$i] ?>" data-aos="fade-up">
               <a href="single.php" class="d-block photo-item">
-                <img src="storage/<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
+                <img src="<?php echo $row['art_file_name'] ?>" alt="Image" class="img-fluid" />
                 <div class="photo-text-more">
                   <h4 class="heading"><?php echo $row['student_name'] ?></h4>
                   <h3 class="meta"><?php echo $row['art_topic'] ?></h3>
