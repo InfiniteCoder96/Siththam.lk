@@ -1,6 +1,6 @@
 <?php include 'core/init.php';
 include 'core/functions/getphotos.php';
-$page = 'gallery'; ?>
+$page = 'gallery_'.$year; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +35,9 @@ $page = 'gallery'; ?>
       <h3 class="classtitle">Grade 01</h3>
       <div class="row align-items-stretch">
 
+
         <?php if ($result_1->num_rows > 0) {
+
 
           $sizes = array(
             "col-6 col-md-6 col-lg-8", "col-6 col-md-6 col-lg-4", "col-6 col-md-6 col-lg-3",

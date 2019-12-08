@@ -16,13 +16,13 @@
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Winners</a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li class="<?php if($page=='winners_2019'){echo 'active';}?>">
-                        <a href="winners_2019.php">2019 Winners</a>
+                        <a href="winners.php?year=2019">2019 Winners</a>
                     </li>
-                    <li class="<?php if($page=='winners_2018'){echo 'active';}?>">
-                        <a href="winners_2018.php">2018 Winners</a>
+                    <li class="<?php if($page=='winners_2017'){echo 'active';}?>">
+                        <a href="winners.php?year=2017">2017 Winners</a>
                     </li>
-                    <li class="<?php if($page=='winners_201'){echo 'active';}?>">
-                        <a href="winners_2017.php">2017 Winners</a>
+                    <li class="<?php if($page=='winners_2016'){echo 'active';}?>">
+                        <a href="winners.php?year=2016">2016 Winners</a>
                     </li>
                 </ul>
             </li>
@@ -30,14 +30,14 @@
             <li class="<?php if($page=='gallery'){echo 'active';}?>">
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Gallery<span class="caret"></span></a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li>
+                    <li class="<?php if($page=='gallery_2019'){echo 'active';}?>">
                         <a href="gallery.php?year=2019">Year 2019 </a>
                     </li>
-                    <li>
-                        <a href="gallery.php">Year 2018 </a>
+                    <li class="<?php if($page=='gallery_2017'){echo 'active';}?>">
+                        <a href="gallery.php?year=2017">Year 2017 </a>
                     </li>
-                    <li>
-                        <a href="gallery.php">Year 2017 </a>
+                    <li class="<?php if($page=='gallery_2016'){echo 'active';}?>">
+                        <a href="gallery.php?year=2016">Year 2016 </a>
                     </li>
                 </ul>
             </li>
